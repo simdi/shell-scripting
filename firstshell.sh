@@ -71,15 +71,48 @@
 
 
 #### Case statements
-read -p "Are you above 20? Y?N: " ANS
-case ${ANS} in
-  [yY] | [yY][eE][sS])
-    echo "You can have a beer. :)"
-    ;;
-  [nN] | [nN][oO])
-    echo "Sorry, no drinking today"
-    ;;
-  *)
-    echo "Please enter either y/Yes or n/No"
-    ;;
-esac
+# read -p "Are you above 20? Y?N: " ANS
+# case ${ANS} in
+#   [yY] | [yY][eE][sS])
+#     echo "You can have a beer. :)"
+#     ;;
+#   [nN] | [nN][oO])
+#     echo "Sorry, no drinking today"
+#     ;;
+#   *)
+#     echo "Please enter either y/Yes or n/No"
+#     ;;
+# esac
+
+
+#### Simple for loop
+# NAMES="John Doe Kelvin Ojo Vincent"
+# for NAME in $NAMES
+#   do
+#     echo "Hello ${NAME}"
+# done
+
+#### For loop to rename files
+# FILES=$(ls *txt)
+# NEWFILE="new"
+# for FILE in $FILES
+#   do
+#     if [ -f ${FILE} ]
+#       then
+#         echo "${FILE} is a file"
+#         echo "Renaming ${FILE} to new-${FILE}"
+#         # Rename file
+#         mv ${FILE} ${NEWFILE}-${FILE}
+#       else
+#         echo "${FILE} is NOT a file"
+#     fi
+# done
+
+
+#### While loop: Read contents of a file
+LINE=1
+while read -r CURRENT_LINE
+  do
+    echo "${LINE}: ${CURRENT_LINE}"
+    ((LINE++))
+done < "./new-1.txt"
