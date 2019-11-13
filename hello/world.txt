@@ -1,0 +1,1 @@
+I love programming and I created this file through the command line

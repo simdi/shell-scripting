@@ -119,14 +119,21 @@
 
 
 #### Functions
-function sayHello() {
-  echo "Hello"
-}
+# function sayHello() {
+#   echo "Hello"
+# }
 
-sayHello
-# Functions with parameters
-function greet() {
-  echo "Hello, I'm $1, and I'm $2years old"
-}
+# sayHello
+# # Functions with parameters
+# function greet() {
+#   echo "Hello, I'm $1, and I'm $2years old"
+# }
 
-greet "John Doe" 32
+# greet "John Doe" 32
+
+
+#### Create folder and write to a file
+mkdir hello
+touch "hello/world.txt"
+echo "I love programming and I created this file through the command line" >> "hello/world.txt"
+echo "Created file successfully inside hello/world.txt"
