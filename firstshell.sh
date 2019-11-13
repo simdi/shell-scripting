@@ -110,9 +110,23 @@
 
 
 #### While loop: Read contents of a file
-LINE=1
-while read -r CURRENT_LINE
-  do
-    echo "${LINE}: ${CURRENT_LINE}"
-    ((LINE++))
-done < "./new-1.txt"
+# LINE=1
+# while read -r CURRENT_LINE
+#   do
+#     echo "${LINE}: ${CURRENT_LINE}"
+#     ((LINE++))
+# done < "./new-1.txt"
+
+
+#### Functions
+function sayHello() {
+  echo "Hello"
+}
+
+sayHello
+# Functions with parameters
+function greet() {
+  echo "Hello, I'm $1, and I'm $2years old"
+}
+
+greet "John Doe" 32
