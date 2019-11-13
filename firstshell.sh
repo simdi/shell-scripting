@@ -68,3 +68,18 @@
 # else
 #   echo "${FILE} is NOT a file"
 # fi
+
+
+#### Case statements
+read -p "Are you above 20? Y?N: " ANS
+case ${ANS} in
+  [yY] | [yY][eE][sS])
+    echo "You can have a beer. :)"
+    ;;
+  [nN] | [nN][oO])
+    echo "Sorry, no drinking today"
+    ;;
+  *)
+    echo "Please enter either y/Yes or n/No"
+    ;;
+esac
