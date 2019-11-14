@@ -133,7 +133,7 @@
 
 
 #### Create folder and write to a file
-mkdir hello
-touch "hello/world.txt"
-echo "I love programming and I created this file through the command line" >> "hello/world.txt"
-echo "Created file successfully inside hello/world.txt"
+# mkdir hello
+# touch "hello/world.txt"
+# echo "I love programming and I created this file through the command line" >> "hello/world.txt"
+# echo "Created file successfully inside hello/world.txt"
