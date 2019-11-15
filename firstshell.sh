@@ -137,3 +137,10 @@
 # touch "hello/world.txt"
 # echo "I love programming and I created this file through the command line" >> "hello/world.txt"
 # echo "Created file successfully inside hello/world.txt"
+
+
+#### Creating files with 🐈  🐱 command
+# cat > random
+# cat > text
+# Merger files together
+# cat random text > sample.txt

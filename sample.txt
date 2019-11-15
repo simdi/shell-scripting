@@ -1,0 +1,3 @@
+this is a random text
+And I will use ctrl+d to exit out ouf here.
+This is also a random text file
