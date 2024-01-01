@@ -1,0 +1,2 @@
+Testing output redirection trucated
+Testing output redirection

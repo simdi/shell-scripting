@@ -11,9 +11,9 @@
 # echo "My name is ${NAME}"
 
 # USER INPUTS
-# read -p "Enter your Name: " NAME
-# read -p "Enter your age: " AGE
-# echo "Hello ${NAME}, nice to meet with you. You're ${AGE}years old."
+read -p "Enter your Name: " NAME
+read -p "Enter your age: " AGE
+echo "Hello ${NAME}, nice to meet with you. You're ${AGE} years old."
 
 # Relational Operators
 # -eq : Equal to

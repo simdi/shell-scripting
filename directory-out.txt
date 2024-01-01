@@ -1,0 +1,19 @@
+total 72
+drwxr-xr-x  18 chisimdi  staff   576 28 Sep 20:32 .
+drwxr-xr-x  17 chisimdi  staff   544 19 Jul 13:24 ..
+drwxr-xr-x  15 chisimdi  staff   480 28 Sep 20:32 .git
+-rw-r--r--   1 chisimdi  staff    18 13 Nov  2019 README.md
+-rwxr-xr-x   1 chisimdi  staff  3248 28 Sep 20:23 firstshell.sh
+drwxr-xr-x   3 chisimdi  staff    96 13 Nov  2019 hello
+-rw-r--r--   1 chisimdi  staff    12 28 Sep 20:26 helloworld.txt
+-rw-r--r--   1 chisimdi  staff     0 28 Sep 20:32 list.txt
+-rw-r--r--   1 chisimdi  staff  1852 13 Nov  2019 new-1.txt
+-rw-r--r--   1 chisimdi  staff     0 13 Nov  2019 new-2.txt
+-rw-r--r--   1 chisimdi  staff     0 13 Nov  2019 new-3.txt
+-rw-r--r--   1 chisimdi  staff     0 13 Nov  2019 new-4.txt
+-rw-r--r--   1 chisimdi  staff     0 13 Nov  2019 new-5.txt
+-rw-r--r--   1 chisimdi  staff    65 14 Nov  2019 random
+-rw-r--r--   1 chisimdi  staff    23 14 Nov  2019 read-and-edit.sh
+-rw-r--r--   1 chisimdi  staff   473 16 Nov  2019 restore.js
+-rw-r--r--   1 chisimdi  staff    97 14 Nov  2019 sample.txt
+-rw-r--r--   1 chisimdi  staff    31 14 Nov  2019 text
